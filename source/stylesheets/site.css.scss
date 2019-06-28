@@ -35,24 +35,17 @@ body {
   background-image: image-url("mountain-background.jpg");
 }
 
-.self-img {
-
+.about-content {
+  width: 100%;
+  text-align: justify;
 }
 
-// .jumbotron {
-//   // background-image: image-url("matt-img.jpg");
-//   background-image: image-url("mountain-background.jpg");
-// }
-
-.about-content {
-  display: flex;
-  // justify-content: center;
+.self-img {
+  width: 100%;
+  height: 100%;
 }
 
 .project-cards {
-  // margin: 30px;
-  // display: flex;
-  // justify-content: space-around;
   border-style: solid;
   border-color: black;
   border-width: 1px;
