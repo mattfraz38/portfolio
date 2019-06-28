@@ -19,3 +19,14 @@ link_to 'MDF', '#', class:'navbar-brand' -->
     <%= image_tag 'images/matt-img.jpg', class:'self-img' %>
   </div>
 </div>
+
+<div class="row">
+  <% 6.times do %>
+  <div class="col-xsm-12 col-sm-10 col-md-6 col-lg-4">
+    <div class="project-cards">
+      <img src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg" class="card-img-top" alt="...">
+      <div class="card-text"><%= lorem.words 5%></div>
+    </div>
+  </div>
+  <% end %>
+</div>
