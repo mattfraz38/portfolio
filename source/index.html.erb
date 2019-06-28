@@ -1,31 +1,36 @@
 ---
 title: Welcome to Middleman
 ---
-
-<div class="background background-img">
-  <h1>Matthew D. Frazier</h1>
+<div id="home">
+  <div class="background background-img">
+    <h1>Matthew D. Frazier</h1>
+  </div>
 </div>
 
 <!-- image_tag 'images/mountain-background.jpg', class:'background-img'
 
 
 link_to 'MDF', '#', class:'navbar-brand' -->
-<div class="row">
-  <div class="col-xs-12 col-lg-6">
-    <div><%= image_tag 'images/matt-img.jpg', class:'self-img' %></div>
-  </div>
-  <div class="col-lg-6">
-    <div class="about-content"><%=  lorem.paragraphs 10 %></div>
+<div id="about">
+  <div class="row">
+    <div class="col-xs-12 col-lg-6">
+      <div><%= image_tag "images/matt-img.jpg", class:"self-img" %></div>
+    </div>
+    <div class="col-lg-6">
+      <div class="about-content"><%=  lorem.paragraphs 10 %></div>
+    </div>
   </div>
 </div>
 
-<div class="row">
-  <% 6.times do %>
-  <div class="col-xs-12 col-sm-10 col-md-6 col-lg-4">
-    <div class="project-cards">
-      <img src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg" class="card-img-top" alt="...">
-      <div class="card-text"><%= lorem.words 5%></div>
+<div id="projects">
+  <div class="row">
+    <% 6.times do %>
+    <div class="col-xs-12 col-sm-10 col-md-6 col-lg-4">
+      <div class="project-cards">
+        <img src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg" class="card-img-top" alt="...">
+        <div class="card-text"><%= lorem.words 5%></div>
+      </div>
     </div>
+    <% end %>
   </div>
-  <% end %>
 </div>
