@@ -6,7 +6,16 @@ title: Welcome to Middleman
   <h1>Matthew D. Frazier</h1>
 </div>
 
-<%# <%= image_tag 'images/mountain-background.jpg', class:'background-img' %> %>
+<!-- image_tag 'images/mountain-background.jpg', class:'background-img'
 
 
-<%# <%= link_to 'MDF', '#', class:'navbar-brand'%> %>
+link_to 'MDF', '#', class:'navbar-brand' -->
+<div class="about-content">
+  <div>
+    <%=  lorem.paragraphs 5 %>
+    <%=  lorem.paragraphs 5 %>
+  </div>
+  <div>
+    <%= image_tag 'images/matt-img.jpg', class:'self-img' %>
+  </div>
+</div>
