@@ -1,22 +1,23 @@
 ---
 title: Matthew D. Frazier - Portfolio
 ---
-<!-- <div id="home"> -->
-  <div id="home" class="background background-img">
+
+<div id="home">
+  <div class="background background-img">
     <div class="container" style="padding-top: 6%;">
       <h1 style="font-size: 80px;">Matthew D. Frazier</h1>
       <p style="font-style: italic; font-size: 40px;">--Web Developer</p>
 
     </div>
   </div>
-<!-- </div> -->
+</div>
 
 
 <!-- link_to 'MDF', '#', class:'navbar-brand' -->
 
 
-<!-- <div id="about"> -->
-  <div id="about" class="row">
+<div id="about">
+  <div class="row">
     <div class="col-xs-12 col-lg-6">
       <div><%= image_tag "images/matt-img.jpg", class:"self-img" %></div>
     </div>
@@ -35,7 +36,7 @@ title: Matthew D. Frazier - Portfolio
           <p>
             It's because of one of the friends I made living in Aormori, Japan
             that I became interested in programming and now, after a lot of self
-            studying, I'm actively searching for webdevelopment positions in
+            studying, I'm actively searching for web development positions in
             Tokyo.
           </p>
           <p>
@@ -93,21 +94,25 @@ title: Matthew D. Frazier - Portfolio
       </div>
     </div>
   </div>
-<!-- </div> -->
+</div>
 
       <!-- <img src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"class="project-cards"> -->
 
-<div id="projects" class="row" style="display: flex; justify-content: space-evenly; text-align: center;">
+<div id="projects">
+  <div class="class="row" style="display: flex; justify-content: space-evenly; text-align: center;"">
 
-  <div class="col-xs-12 col-med-3 col-lg-3" style="display: flex; justify-content: space-evenly;">
-    <a href="http://alpha-blog-mdf.herokuapp.com/" target="blank">
-    <div class="card" style="width: auto;">
-      <img src="images/alphablog.jpg" class="card-img-top" alt="">
-      <div class="card-body">
-        <p class="card-text">Blogging application.</p>
-      </div></a>
+    <div class="col-xs-12 col-med-3 col-lg-3" style="display: flex; justify-content: space-evenly;">
+      <a href="http://alpha-blog-mdf.herokuapp.com/" target="blank">
+      <div class="card" style="width: auto;">
+        <img src="images/alphablog.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text">Blogging application.</p>
+        </div></a>
+      </div>
     </div>
+
   </div>
+</div>
 
 <!--
   <div class="col-xs-12 col-med-3 col-lg-3" style="display: flex; justify-content: space-evenly;">
@@ -129,11 +134,35 @@ title: Matthew D. Frazier - Portfolio
     </div>
   </div> -->
 
-</div>
 
 
 <div id="contact">
-  <div align="center">
-    <p>Below you will find my links to my social media pages where you can contact me.</p>
+  <div class="container contact-form">
+    <!-- <div align="center"> -->
+      <h1 class="contact-title">CONTACT</h1>
+      <!-- <p>Below you will find my links to my social media pages where you can contact me.</p> -->
+
+      <form action="https://formspree.io/email@domain.tld" method="POST">
+          <label class="heading1">
+          <div class="email">
+            <input type="email" class="" style="width: 549px; margin-right: 1px;" placeholder="johndoe@example.com">
+          </div>
+          <!-- </label> -->
+          <!-- <label> -->
+          <div class="subject">
+            <input type="text" class="" style="width: 549px; margin-left: 1px;" placeholder="Abc Inc. job opening">
+          </div>
+          </label>
+          <label class="heading2">
+          <div class="message">
+            <textarea rows="8" cols="120" class="" placeholder="Hi! I'd like to hear more!"></textarea>
+          </div>
+          </label>
+            <input type="submit" style="width: 1110px;" value="Send">
+      </form>
+
+ <!-- rows="8" cols="120"  -->
+
+    <!-- </div> -->
   </div>
 </div>

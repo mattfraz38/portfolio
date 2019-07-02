@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  // background-color: #26262a;
 }
 
 .navbar-align {
@@ -26,6 +27,10 @@ body {
   height: 100%;
 }
 
+.card {
+  margin-top: 150px;
+}
+
 .project-cards {
   // border-width: 1px;
   // border-style: solid;
@@ -48,6 +53,39 @@ body {
 //   border-width: 1px;
 //   padding: 5px;
 //   text-align: center;
+// }
+
+.contact-form {
+  // border-style: solid;
+  // border-width: 1px;
+} .contact-title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+// input {
+//   display: block;
+//   margin-bottom: 10px;
+//   margin-right: 10px;
+// }
+
+.heading1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+}
+
+// .email {
+//   width: 550px;
+// }
+//
+// .subject {
+//   width: 550px;
 // }
 
 .footer {
