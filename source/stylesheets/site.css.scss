@@ -69,6 +69,19 @@ body {
 //   margin-right: 10px;
 // }
 
+.error-msg {
+  // background-color: #FA5552;
+  // opacity: .3;
+  // background: rgb(250, 85, 82);
+  // color: black;
+  // display: inline;
+  // padding: 20px;
+  color: #fa5552;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 form {
   width: 100%;
   height: 100%;
@@ -77,6 +90,7 @@ form {
 }
 
 .contact-section-1 {
+  margin-top: 30px;
   display: flex;
   justify-content: space-evenly;
   // margin: 10px;

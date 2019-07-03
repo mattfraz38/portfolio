@@ -30,9 +30,9 @@ $(document).ready(function() {
     //   statusElem.append('<div class="error-msg">Message is too short')
     };
 
-    setTimeout(function() {
-      $('.error-msg').remove();
-    }, 20000);
+    // setTimeout(function() {
+    //   $('.error-msg').remove();
+    // }, 20000);
   });
 });
 
