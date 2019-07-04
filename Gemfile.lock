@@ -111,8 +111,8 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
-  ruby
     x86-mingw32
+  ruby
 
 DEPENDENCIES
   middleman (~> 4.2)
