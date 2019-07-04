@@ -63,6 +63,12 @@ body {
     text-align: center;
 }
 
+.contact-call {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 // input {
 //   display: block;
 //   margin-bottom: 10px;
@@ -102,16 +108,16 @@ form {
   justify-content: space-evenly;
   // margin: 10px;
 } .email {
-    width: 48%;
-    margin-left: -3%;
+    width: 50%;
+    // margin-left: -3%;
 }
 
 .contact-section-2 {
   display: flex;
   justify-content: center;
 } .subject {
-    width: 48%;
-    margin-right: -3%;
+    width: 50%;
+    // margin-right: -3%;
 }
 
 // .email {
